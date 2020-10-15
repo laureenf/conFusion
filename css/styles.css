@@ -44,3 +44,14 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 20px;
 }
+
+.clickable {
+    cursor: pointer;
+}
+.clickable>a:hover {
+    text-decoration: none;
+    color: darkmagenta;
+}
+.clickable>a {
+    color: black;
+}
